@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Доставка пиццы</title>
+</head>
+<body>
+Выберите пиццу:<br/>
+<form method="post" name="pizza" action="#">
+	<select name="menu">
+		<option value="first" selected>Маргарита</option>
+		<option value="second">Гавайская</option>
+		<option value="third">Мексиканская</option>
+		<option value="fourth">Шеф-пицца</option>
+	</select>
+		<br/>
+		Выберите основу: <br/>
+	<input type="radio" name="type" checked="checked"/>тонкий край
+	<input type="radio" name="type" />толстый край
+	<br/>
+	Номер телефона для связи
+	<br/>
+	<input type="tel" name="telephone" required />
+	<br/>
+	Адрес доставки
+	<br/>
+	<input type="text" name="addres" required />
+	<br/>
+	Дополнительные пожелания
+	<br/>
+	<textarea name="comments" placeholder="Время доставки,код домофона и пр."></textarea>
+	<br/>
+	<button type="submit">Заказать</button>
+</form>
+</body>
+</html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
 	<title>Соцсеть фотографий и видео</title>
 </head>
@@ -13,11 +13,11 @@
 	<form action="feed.html">
 		<fieldset>
 			<legend>Форма входа</legend>
-		<label for="email">Введите свой email</label>
-		<input type="email" name="email" required/>
+		<label for="emailone">Введите свой email</label>
+		<input type="email" name="email" id="emailone" required/>
 		<br/>
-		<label for="password">Введите свой пароль</label>
-		<input type="password" name="password" required/>
+		<label for="passwordtwo">Введите свой пароль</label>
+		<input type="password" name="password" id="passwordtwo" required/>
 		<br/>
 		<button type="submit">Отправить</button>
 		</fieldset>
@@ -28,16 +28,16 @@
 		<fieldset>
 		<legend>Форма регистрации</legend>
 		<label for="name">Введите своё имя на сервисе</label>
-		<input type="text" name="name" required/>
+		<input type="text" name="name" id="name" required/>
 		<br/>
 		<label for="email">Введите свой email</label>
-		<input type="email" name="tryemail" required/>
+		<input type="email" name="tryemail" id="email" required/>
 		<br/>
 		<label for="password">Введите свой пароль</label>
-		<input type="password" name="pass" required/>
+		<input type="password" name="pass" id="password" required/>
 		<br/>
-		<label for="password">Повторите свой пароль</label>
-		<input type="password" name="passtry" required/>
+		<label for="passwordone">Повторите свой пароль</label>
+		<input type="password" name="passtry" id="passwordone" required/>
 		<br/>
 		Отметка о согласии с порядком обработки данных<input type="radio" name="ok" required/>
 		<br/>

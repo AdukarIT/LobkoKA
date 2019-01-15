@@ -5,4 +5,4 @@
 3)a)https://github.com/AdukarIT/LobkoKA/tree/master/Homework%202-1%20pizza 
 б)https://github.com/AdukarIT/LobkoKA/tree/master/Homework%202-2%20comment
 4)a)https://github.com/AdukarIT/LobkoKA/tree/master/hometask
-  b)
+  б)https://github.com/AdukarIT/LobkoKA/tree/master/homework%203-2%20languages

@@ -4,17 +4,23 @@
 	<title>Отзывы</title>
 </head>
 <body>
-<form>
+<form action="#">
 <fieldset>
-<p><img src="qwr.jpg" alt="ok" height="100" width="100" align="left">
-	<font size="5">Даник</font>
+	<input type="file" accept=".png"/>
 	<br/>
-	qwr@gmail.com
+	<input type="text" name="human" placeholder="Введите имя" />
 	<br/>
-	<input type="range" name="size"/>
+	<input type="email" name="email" placeholder="Введите свой email"/>
 	<br/>
-	<font size="3">Ваш сервис очень понравился.</font>
-</p>
+	<select name="range">
+		<option value="first" selected>&#9734;</option>
+		<option value="second">&#9734;&#9734;</option>
+		<option value="third">&#9734;&#9734;&#9734;</option>
+		<option value="fourth">&#9734;&#9734;&#9734;&#9734;</option>
+		<option value="fifth">&#9734;&#9734;&#9734;&#9734;&#9734;</option>
+	</select>	
+	<br/>
+	<textarea name="comments" placeholder="Введите комментарий"></textarea>
 </fieldset>
 </form>	
 </body>

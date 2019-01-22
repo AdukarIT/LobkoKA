@@ -7,3 +7,4 @@
 4)a)https://github.com/AdukarIT/LobkoKA/tree/master/hometask
   б)https://github.com/AdukarIT/LobkoKA/tree/master/homework%203-2%20languages
 5)https://jsfiddle.net/9527bykn/
+6)https://jsfiddle.net/envc94xz/

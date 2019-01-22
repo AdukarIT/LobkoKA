@@ -6,4 +6,4 @@
 б)https://github.com/AdukarIT/LobkoKA/tree/master/Homework%202-2%20comment
 4)a)https://github.com/AdukarIT/LobkoKA/tree/master/hometask
   б)https://github.com/AdukarIT/LobkoKA/tree/master/homework%203-2%20languages
-5)https://jsfiddle.net/pr73Lhaq/(реферат)
+5)https://jsfiddle.net/pr73Lhaq/#реферат

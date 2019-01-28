@@ -1,0 +1,12 @@
+.first{
+	position:absolute;
+	width:250px;
+	height:250px;
+}
+.first:hover::after{
+	content:attr(data-title);
+	position: absolute;
+	top:160px;
+	left:50px;
+	color:green;
+}

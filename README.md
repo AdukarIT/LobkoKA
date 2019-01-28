@@ -9,3 +9,4 @@
 5)https://jsfiddle.net/dL05ja69/
 6)a)https://jsfiddle.net/6r9xsumv/
   б)https://jsfiddle.net/envc94xz/1/
+7)а)https://jsfiddle.net/wL51vy4x/

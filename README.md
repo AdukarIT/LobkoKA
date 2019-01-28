@@ -10,3 +10,4 @@
 6)a)https://jsfiddle.net/6r9xsumv/
   б)https://jsfiddle.net/envc94xz/1/
 7)а)https://jsfiddle.net/wL51vy4x/
+  b)https://github.com/AdukarIT/LobkoKA/tree/master/Homework%207-b%20hint

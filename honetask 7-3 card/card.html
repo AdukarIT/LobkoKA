@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="lcss.css">
+        <title>Форма заказа в интернет-магазине</title>
+    </head>
+    <body>
+    <div class="header">
+        <h1>Carrier</h1>
+    </div>
+    <h2 class="first">MENU</h2>
+    <div class="hint">
+        <ul>
+            <li>Бытовая техника
+                <ul class="text">
+                    <li>Стиральные машины</li>
+                    <li>Стиральные машины</li>
+                    <li>Пылесосы</li>
+                    <li>Вышивальные машины</li>
+                    <li>Утюги</li>
+                    <li>Электровеники</li>
+                    <li>Сушилки для обуви</li>
+                </ul>
+            </li>    
+            <li>Техника для кухни
+                <ul class="text">
+                    <li>Холодильники</li>
+                    <li>Кухонные плиты</li>
+                    <li>Морозильники</li>
+                    <li>Настольные плиты</li>
+                    <li>Ростеры</li>
+                    <li>Вытяжки</li>
+                    <li>Микроволновки</li>
+                </ul>
+            </li>
+            <li>Компьютерная техника
+                <ul class="text">
+                    <li>Ноутбуки</li>
+                    <li>Планшеты</li>
+                    <li>Компьютеры</li>
+                    <li>Приставки</li>
+                    <li>Сер.оборудование</li>
+                </ul>
+            </li>
+            <li>Корзина</li>
+        </ul>
+    </div>
+    <div>
+        <form action="#" method="post" class="forma">
+            <fieldset>
+        <legend>Форма для заказа</legend>
+            Фамилия и имя
+            <input type="text" class="width" placeholder="Введите фамилию и имя" required/>
+            <br/>
+            Номер телефона
+            <input type="tel" name="telephone" class="width" placeholder="Введите номер телефона" required/>
+            <br/>
+            E-mail
+            <input type="email" name="e-mail" placeholder="Введите е-мейл" class="width" required/>
+            <br/>
+            Выберите способ доставки:
+            <input class="choice" type="checkbox" value="first" />Самовызов со склада по адресу
+            <div class="check">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.683152435077!2d27.547051915420116!3d53.90183538009921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfebe68e0203%3A0x7b59184b5d72f463!2z0YPQu9C40YbQsCDQndC10LzQuNCz0LAgNSwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1548759048081" width="600" height="450" style="border:0" allowfullscreen></iframe>
+            </div>
+            <br/>
+            <input type="checkbox" class="check_" value="second"/>Курьером по Минску
+            <div class="add">
+                <input type="text" placeholder="Ваш адрес в Минске"/>
+            </div>
+            <br/>
+            <textarea name="tell" placeholder="Введите свой комментарий"  required></textarea>
+            <br/>
+            Я прочитал и согласен с условиями доставки
+            <input type="radio" name="access" required/>
+            <br/>
+            <button type="submit">Подтвердить заказ</button>
+        </fieldset>
+        </form>
+    </div>
+    <div class="telephone">
+        Время работы магазина:8-18
+        <br/>
+        Адрес офиса:ул.Немига дом 5
+        <br/>
+        Skype:Lobko Kirill
+        <br/>
+        Телефоны:+375334568970,+375291234560
+    </div>
+    </body>
+</html>

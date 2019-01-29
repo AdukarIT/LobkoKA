@@ -1,0 +1,55 @@
+.header{
+	position:absolute;
+	left:600px;
+}
+.first{
+	position:absolute;
+	top:80px;
+	left:360px;
+}
+.hint{
+	position: absolute;
+	top:130px;
+	margin:0px 20px;
+}
+.hint > ul{
+	display:flex;
+}
+.hint ul li{
+	display:block;
+	margin:0px 20px;
+	border:1px solid #000000;
+}
+.hint ul li ul{
+	display:none;
+}
+.hint ul li:hover .text{
+	display:block;
+	margin:0px -20px;
+	padding:0px;
+	position:fixed;
+} 
+.forma{
+	position:absolute;
+	top:320px;
+}
+.width{
+	position:absolute;
+	left:150px;
+}
+.check{
+	display:none;
+}
+.choice:checked + div.check{
+	display:block;
+}
+.add{
+	display:none;
+}
+.check_:checked + div.add{
+	display:block;
+}
+.telephone{
+	position:absolute;
+	top:530px;
+}

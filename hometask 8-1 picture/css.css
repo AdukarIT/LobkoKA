@@ -1,0 +1,8 @@
+div {
+	width:500px;
+	height:500px;
+	background-image:url(images/sea.jpg),url(images/sun.png),url(images/sky.jpg);
+	background-size:500px,150px,500px;
+	background-repeat:no-repeat;
+	background-position:bottom,right top,center center;
+}

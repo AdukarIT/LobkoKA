@@ -2,7 +2,7 @@ div {
 	width:500px;
 	height:500px;
 	background-image:url(images/sea.jpg),url(images/sun.png),url(images/sky.jpg);
-	background-size:500px,150px,500px;
+	background-size:50vw,20vw,50vw;
 	background-repeat:no-repeat;
 	background-position:bottom,right top,center center;
 }

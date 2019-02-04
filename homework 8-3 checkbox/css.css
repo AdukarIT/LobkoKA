@@ -1,0 +1,18 @@
+.chec{
+	display:none;
+}
+.chec1{
+	display:none;
+}
+.icon:focus ~ .chec{
+display:block;
+}
+.icon1:focus ~ .chec1{
+display:block;
+}
+img {
+	width:100px;
+	height:100px;
+}
+
+

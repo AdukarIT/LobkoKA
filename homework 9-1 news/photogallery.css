@@ -1,0 +1,84 @@
+.header {
+	height:50px;
+	display:flex;
+}
+.header__link {
+	border-left:1px solid #000000;
+	width:200px;
+	height:40px;
+	padding:0px 5px;
+}
+a {
+	color:#000;
+	text-decoration:none;
+}
+.header__link:hover {
+	background:#ABB1BA;
+}
+.content {
+	display:block;
+	height:480px;
+	color:#fff;
+}
+.content__first {
+	width:50%;
+	height:50%;
+	background-image:url(image/barcelona.jpeg);
+	border:1px solid #000;
+	float:left;
+}
+span {
+	display:none;
+}
+.content__first:hover span {
+display:block;
+}
+.content__second:hover span {
+	display:block;
+}
+.content__third:hover span {
+	display:block;
+}
+.content__second {
+	width:49.67%;
+	height:50%;
+	background-image:url(image/biathlon.jpg);
+	border:1px solid #000;
+	float:right;
+}
+.content__third {
+	width:50%;
+	height:50%;
+	background-image:url(image/snowboard.jpg);
+	border:1px solid #000;
+	float:left;
+}
+.content__fourth:hover span {
+	display:block;
+}
+.content__fourth {
+	width:49.66%;
+	height:50%;
+	background-image:url(image/skates.jpg);
+	background-position:bottom;
+	border:1px solid #000;
+	float:right;
+}
+
+
+.footer {
+	background-image:url(image/vkontakte.png),url(image/instagram-new.png),url(image/facebook.png)
+	,url(image/telegram-app.png),url(image/youtube.png),url(image/rss.png)
+	,url(image/slack.png),url(image/twitter.png);
+	background-size:24px,24px,24px,24px,24px,24px,24px,24px;
+	background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,
+	no-repeat,no-repeat,no-repeat;
+	background-color:#F2F2F2;
+	background-position:47% 0%,47% 100%,52% 0%,52% 100%,57% 0%,57% 100%,
+	62% 0%,62% 100%;
+}
+.first {
+	padding:0px 350px;
+	text-align:left;
+	font-size:13px;
+}

@@ -1,0 +1,125 @@
+.header {
+	height:50px;
+	display:flex;
+}
+.header__link {
+	border-left:1px solid #000000;
+	width:200px;
+	height:40px;
+	padding:0px 5px;
+}
+a {
+	color:#000;
+	text-decoration:none;
+}
+.header__link:hover {
+	background:#ABB1BA;
+}
+.content {
+	display:block;
+	height:480px;
+	color:#ffffff;
+}
+.content__big1 {
+	float:left;
+	width:49.5%;
+	height:40%;
+	border:1px solid black;
+	background-image:url(image/napoli.png);
+	background-repeat: no-repeat;
+	background-size: 190px;
+	background-position:center;
+	background-color: #09A1D8;
+}
+.content__small1 {
+	float:left;
+	width:25%;
+	height:20%;
+	background-image:url(image/tennis.jpg);
+	background-size:370px;
+	background-position:center;
+	background-repeat:no-repeat;
+	border:1px solid black;
+}
+.content__small2 {
+	float:right;
+	width:25%;
+	height:20%;
+	background-image:url(image/football.jpg);
+	border:1px solid black;
+	background-position: bottom;
+}
+.content__small21 {
+	float:right;
+	background-image:url(image/form.jpg);
+	background-size:320px;
+	background-position:bottom;
+	width:25%;
+	height:20%;
+	background-color:#ff00ff;
+	border:1px solid black;
+}
+.content__small22 {
+	float:right;
+	width:25%;
+	height:20%;
+	background-image:url(image/bigten.jpg);
+	border:1px solid black;
+}
+.content__average {
+	float:right;
+	width:50.17%;
+	height:19.55%;
+	background-image:url(image/manu.jpg);
+	background-position:center;
+	border:1px solid #000;
+}
+.content__unusual {
+	background-image:url(image/bvb.jpg);
+	background-position:center;
+	background-size:850px;
+	float:left;
+	width:74.67%;
+	height:20%;
+	background-color:#58ff80;
+	border:1px solid #0000ff;
+}
+.content__big2 {
+	float:right;
+	width:74.67%;
+	background-image:url(image/fcb.jpg);
+	height:39.5%;
+	background-position: top;
+	border:1px solid #000000;
+}
+.content__small3 {
+	float:right;
+	width:25%;
+	background-image:url(image/ttm.jpg);
+	height:19.0%;
+	background-color:#ff00ff;
+	border:1px solid black;
+}
+span {
+	text-align:center;
+	font-family:Arial,sans-serif;
+}
+.content div:hover{
+	transform:scale(0.99,0.98);
+}
+.footer {
+	background-image:url(image/vkontakte.png),url(image/instagram-new.png),url(image/facebook.png)
+	,url(image/telegram-app.png),url(image/youtube.png),url(image/rss.png)
+	,url(image/slack.png),url(image/twitter.png);
+	background-size:24px,24px,24px,24px,24px,24px,24px,24px;
+	background-repeat:no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,
+	no-repeat,no-repeat,no-repeat;
+	background-color:#F2F2F2;
+	background-position:47% 0%,47% 100%,52% 0%,52% 100%,57% 0%,57% 100%,
+	62% 0%,62% 100%;
+}
+.first {
+	padding:0px 350px;
+	text-align:left;
+	font-size:13px;
+}

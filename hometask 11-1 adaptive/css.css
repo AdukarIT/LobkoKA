@@ -1,0 +1,119 @@
+@media screen and (min-width:800px) {
+.block1 {
+	background-color:#0f0;
+	float : left;
+	width:30%;
+	height:34%;
+	border: 1px solid #fff;
+}
+.block2 {
+	background-color:#0f0;
+	float : left;
+	height:34%;
+	width:69%;
+	border: 1px solid #fff;
+}
+.block3 {
+	background-color:#0f0;
+	height:33%;
+	float : left;
+	width:70%;
+	border: 1px solid #fff;
+}
+.block4 {
+	background-color:#0f0;
+	height:33%;
+	float : left;
+	width:29%;
+	border: 1px solid #fff;
+}
+.block5 {
+	float:left;
+	background-color:#0f0;
+	height:33%;
+	width:99%;
+}
+.block{
+	width:1250px;
+	height:500px;
+}
+}
+@media screen and (max-width:800px) and (min-width:500px) {
+.block1 {
+	flex-basis:49%;
+	background-color:#0f0;
+	order:1;
+	height:125px;
+	border: 1px solid #fff;
+}
+.block2 {
+	flex-basis:99%;
+	background-color:#0f0;
+	order:3;
+	height:125px;
+	border: 1px solid #fff;
+}
+.block3 {
+	height:125px;
+	flex-basis:99%;
+	background-color:#0f0;
+	order:4;
+	border: 1px solid #fff;
+}
+.block4 {
+	background-color:#0f0;
+	order:2;
+	height:125px;
+	flex-basis:49%;
+	border: 1px solid #fff;
+}
+.block5 {
+	flex-basis:99%;
+	height:125px;
+	background-color:#0f0;
+	order:5;
+}
+.block{
+	width:799px;
+	height:500px;
+	flex-wrap:wrap;
+	display:flex;
+	flex-direction:row;
+}
+}
+@media screen and (max-width:500px) {
+.block1 {
+	background-color:#0f0;
+	width:99%;
+	height:34%;
+	border: 1px solid #fff;
+}
+.block2 {
+	background-color:#0f0;
+	height:34%;
+	width:99%;
+	border: 1px solid #fff;
+}
+.block3 {
+	background-color:#0f0;
+	height:33%;
+	width:99%;
+	border: 1px solid #fff;
+}
+.block4 {
+	background-color:#0f0;
+	height:33%;
+	width:99%;
+	border: 1px solid #fff;
+}
+.block5 {
+	width:99%;
+	background-color:#0f0;
+	height:33%;
+	
+}
+.block{
+	width:499px;
+	height:500px;
+}
+}

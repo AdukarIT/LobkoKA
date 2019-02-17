@@ -18,5 +18,6 @@
    d)https://github.com/AdukarIT/LobkoKA/tree/master/homework%208-4%20header
  9)а)https://github.com/AdukarIT/LobkoKA/tree/master/homework%209-1%20news
  10)а)https://github.com/AdukarIT/LobkoKA/tree/master/homework%2010-1%20%20header
+    б)https://github.com/AdukarIT/LobkoKA/tree/master/homework%2010-2%20vkontakte
    
    

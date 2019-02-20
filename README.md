@@ -20,4 +20,5 @@
  10)а)https://github.com/AdukarIT/LobkoKA/tree/master/homework%2010-1%20%20header
     б)https://github.com/AdukarIT/LobkoKA/tree/master/homework%2010-2%20vkontakte
  11)а)https://github.com/AdukarIT/LobkoKA/tree/master/hometask%2011-1%20adaptive  
+ 12)https://github.com/AdukarIT/LobkoKA/tree/master/hometask%2012-1%20ball%20jump
    

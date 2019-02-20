@@ -1,0 +1,29 @@
+img {
+	width:100px;
+	height:100px;
+	margin:50px;
+	animation:went .5s;
+	animation-iteration-count:3;
+}
+img:hover {
+	animation:speed .5s;
+	animation-iteration-count:3;
+}
+@keyframes speed {
+	0% {
+		transform:rotate(0deg);
+		animation-timing-function:cubic-bezier(0.11, 0.49, 0.15, 0.77);
+	}
+	100% {
+		transform:rotate(360deg);
+	}
+}
+@keyframes went {
+	0% {
+		transform:rotate(0deg);
+		animation-timing-function:cubic-bezier(0.11, 0.49, 0.15, 0.77);
+	}
+	100% {
+		transform:rotate(-360deg);
+	}
+}

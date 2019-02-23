@@ -321,4 +321,5 @@ a {
 .inpchec:checked + .inputlabel:after {
 	background-color:#5181B8;
 	margin:-16px 0px 0px 32px;
+	border:1px solid #5181B8;
 }

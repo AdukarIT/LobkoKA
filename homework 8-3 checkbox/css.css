@@ -1,18 +1,15 @@
-.chec{
+.within {
 	display:none;
 }
-.chec1{
+.without {
 	display:none;
 }
-.icon:focus ~ .chec{
+.icon:checked ~ .within {
 display:block;
 }
-.icon1:focus ~ .chec1{
+.icon1:checked ~ .without {
 display:block;
 }
-img {
-	width:100px;
-	height:100px;
-}
+
 
 

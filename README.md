@@ -23,4 +23,5 @@
  12)а)https://github.com/AdukarIT/LobkoKA/tree/master/hometask%2012-1%20ball%20jump
     б)https://github.com/AdukarIT/LobkoKA/tree/master/hometask%2012-2%20fan
     в)https://github.com/AdukarIT/LobkoKA/tree/master/hometask%2012-3%20sub-zero
+ 13)https://github.com/AdukarIT/LobkoKA/tree/master/homework
    

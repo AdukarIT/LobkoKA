@@ -1,0 +1,33 @@
+table {
+  margin: 10px 0px 0px 260px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+table th {
+  border: 1px solid #000;
+}
+table td {
+  border: 1px solid #000;
+}
+table td a {
+  padding: 0px 0px 0px 20px;
+  text-decoration: none;
+  color: #000000;
+}
+table td img {
+  margin: 10px 0px 0px 80px;
+}
+
+.__first {
+  margin: 0px 0px 0px 550px;
+}
+.__first span {
+  margin: 0px 0px 0px -270px;
+}
+
+.footer {
+  margin: 10px 0px 0px 530px;
+}
+
+/*# sourceMappingURL=css.css.map */

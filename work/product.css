@@ -1,0 +1,42 @@
+.__first {
+  margin: 0px 0px 0px 550px;
+}
+.__first span {
+  margin: 0px 0px 0px -270px;
+}
+
+a {
+  margin: 0px 0px 0px 530px;
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.main {
+  margin: 0px 0px 0px 510px;
+}
+.main .first {
+  margin: 0px 0px 0px 5px;
+}
+.main .second {
+  margin: 0px 0px 0px 60px;
+}
+.main img {
+  width: 300px;
+  height: 600px;
+}
+.main .third {
+  margin: 0px 0px 0px -70px;
+}
+.main .fourth {
+  margin: 0px 0px 0px -150px;
+}
+.main .fifth {
+  margin: 0px 0px 0px 60px;
+}
+
+.footer {
+  margin: 10px 0px 0px 530px;
+}
+
+/*# sourceMappingURL=product.css.map */

@@ -1,35 +1,21 @@
 .header {
 	display:flex;
-	vertical-align:middle;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
 }
-.header__logo {
-padding:0px 5px;
-}
-.header__menu {
-	padding:0px 5px;
-	margin:0px;
-}
-.tele {
-	position:absolute;
-	left:325px;
-	margin:0px;
-	padding:0px 19px;
-}
-.header__menu ol li {
+.header__menu .first {
 	display:block;
 }
-.header__find{
-	position:relative;
-	top:13px;
-	margin:1px;
-}
-.header__menu ol li ol li {
+.header__menu .first .second {
 	display:none;
 }
-.header__menu ol li:hover ol li {
+.header__menu .first:hover .second{
 	display:block;
-	margin:0px -41px;
+	position:absolute;
+	margin:0;
+	padding:0;
 }
-
 
 

@@ -1,0 +1,40 @@
+.header {
+	margin:0 560px;
+}
+.first{
+	margin:0 575px;
+}
+.hint ul {
+	display:flex;
+	flex-flow:row nowrap;
+	justify-content:space-between;
+}
+.hint ul li{
+	display:block;
+	border:1px solid #000000;
+	align-content:space-around;
+}
+.hint ul li ul{
+	display:none;
+}
+.hint ul li:hover .text{
+	background-color:#ffffff;
+	display:block;
+	position:absolute;
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	align-content:space-around;
+} 
+.check{
+	display:none;
+}
+.choice:checked + div.check{
+	display:block;
+}
+.add{
+	display:none;
+}
+.check_:checked + div.add{
+	display:block;
+}

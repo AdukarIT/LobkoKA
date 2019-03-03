@@ -1,8 +1,12 @@
 .header {
-	margin:0 560px;
+	width:50px;
+	height:37px;
+	margin:0 auto;
 }
 .first{
-	margin:0 575px;
+	width:40px;
+	height:28px;
+	margin:0 auto;
 }
 .hint ul {
 	display:flex;

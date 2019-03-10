@@ -32,10 +32,10 @@ body {
 }
 .imagephoto {
 	margin-bottom:8px;
-	margin-right:3px;
-	margin-left:3px;
-	width:35px;
-	height:35px;
+	margin-right:8px;
+	margin-left:8px;
+	width:30px;
+	height:30px;
 	border-radius:50px;
 }
 .header__find {
@@ -57,8 +57,8 @@ input::placeholder {
 	padding-left:40px;
 }
 .header__badge {
-	height:27px;
-	width:27px;
+	height:19px;
+	width:19px;
 	margin:0 3px;
 }
 figure {
@@ -67,7 +67,14 @@ figure {
 	margin:0;
 	width:150px;
 }
-
+.header__badgefirst {
+	margin:0 21px;
+}
+.header__badgesecond {
+	width:18px;
+	height:21px;
+	margin-right:7px;
+} 
 .find_input {
 	background-image:url(image/f.png);
 	background-position:1% 50%;
@@ -109,8 +116,12 @@ figure {
 	align-items:center;
 }
 .badgeminus {
-	width:12px;
-	height:7px;
+	width:10px;
+	height:5px;
+	margin-bottom:5px;
+}
+.header__imagehref {
+	color:#9BB3CF;
 }
 .content__me_listlast {
 	display:flex;
@@ -150,15 +161,18 @@ figure {
 	flex-wrap:wrap;
 }
 .content__thing_block_element0 {
+	margin-top:3px;
 	display:flex;
 	flex-flow:row nowrap;
 	align-items:center;
 	width:205px;
 	height:39px;
-	border-left:1px solid #6887B5;
+	border-left:1.8px solid #6887B5;
 	background-color:#F1F2F6;
 }
 .content__thing_block_element {
+	margin-left:8px;
+	width:91.8%;
 	border-bottom:1px solid #E3E4E8;
 }.content__thing_blockthree {
 	margin-top:40px;
@@ -192,8 +206,9 @@ figure {
 	padding-bottom:10px;
 }
 .blockthree-image {
-	padding:5px;
-	max-width:81%;
+	padding:6px;
+	max-height:80%;
+	max-width:80%;
 	height:45px;
 	border-radius:50%;
 }
@@ -210,7 +225,7 @@ figure {
 	height:19px;
 }
 .thingtext0 {
-	color:#CDCED2;
+	color:#65656F;
 	padding-left:10px;
 }
 .blockthree-text {
@@ -303,7 +318,7 @@ figure {
 .fourimage {
 	max-width:100%;
 }
-a {
+.hrefc {
 	color:#647296;
 	text-decoration: none;
 }

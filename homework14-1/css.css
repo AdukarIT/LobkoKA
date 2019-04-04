@@ -1,0 +1,331 @@
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: normal;
+  src: url("d:/Users/asd/webfonts/fa-brands-400.eot");
+  src: url("d:/Users/asd/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("d:/Users/asd/webfonts/fa-brands-400.woff2") format("woff2"), url("d:/Users/asd/webfonts/fa-brands-400.woff") format("woff"), url("d:/Users/asd/webfonts/fa-brands-400.ttf") format("truetype"), url("d:/Users/asd/webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url("../Fonts/BankGothicBold.ttf");
+}
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  src: url("d:/Users/asd/webfonts/fa-solid-900.eot");
+  src: url("d:/Users/asd/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("d:/Users/asd/webfonts/fa-solid-900.woff2") format("woff2"), url("d:/Users/asd/webfonts/fa-solid-900.woff") format("woff"), url("d:/Users/asd/webfonts/fa-solid-900.ttf") format("truetype"), url("d:/Users/asd/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+@media screen and (min-width: 1000px) {
+  .content {
+    margin: 20px 30px;
+    box-shadow: -7px 7px 25px 0px rgba(0, 0, 0, 0.37);
+    height: 900px;
+    border-radius: 15px;
+    background-color: #f0f1f2;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .content .content-first {
+    padding-left: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+  .content .content-first .content-firstblock {
+    width: 100%;
+    height: 27%;
+    border-radius: 0 50% 50% 0;
+    background-color: #e9eae9;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .content-first .content-firstblock .blocksizeimage {
+    font-family: "Font Awesome 5 Free";
+    color: #646464;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .content .content-first .content-firstblock .blocktitle {
+    font-family: "Open Sans", sans-serif;
+    color: #646464;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .content .content-first .content-firstblock .blockmaintitle {
+    color: #383838;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .content .content-first .content-firstblock:hover .blocksizeimage:hover {
+    color: #000000;
+  }
+  .content .content-second {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+  }
+  .content .content-second .contentcontainer {
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .content .content-second .contentcontainer .blockmaintext {
+    font-family: myFirstFont, sans-serif;
+    letter-spacing: -3.5px;
+    font-size: 90px;
+  }
+  .content .content-second .contentcontainer .blocktext {
+    font-family: myFirstFont, sans-serif;
+    font-size: 50px;
+    letter-spacing: 60px;
+    padding-left: 60px;
+  }
+  .content .content-second .contentcontainer .blocktext2 {
+    font-family: myFirstFont, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #646464;
+    line-height: 25px;
+    padding: 30px 0;
+  }
+  .content .content-second .contentcontainer button {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+    width: 312px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: opacity 1s ease-in;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .content .content-second .contentcontainer button:hover {
+    opacity: 0.3;
+  }
+  .content .content-second .contentcontainer .secondblock {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 80px;
+  }
+  .content .content-second .contentcontainer .secondblock a {
+    cursor: pointer;
+  }
+  .content .content-second .contentcontainer .secondblock a span {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 50px;
+    transition: opacity font-size 0.5s ease-out;
+  }
+  .content .content-second .contentcontainer .secondblock a span:hover {
+    opacity: 0.3;
+    font-size: 80px;
+  }
+  .content .content-third {
+    padding-left: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+  }
+  .content .content-third .content-thirdblock {
+    width: 100%;
+    height: 27%;
+    border-radius: 50% 0 0 50%;
+    background-color: #e9eae9;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .content-third .content-thirdblock .blocksizeimage {
+    font-family: "Font Awesome 5 Free";
+    color: #646464;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .content .content-third .content-thirdblock .blocktitle {
+    font-family: "Open Sans", sans-serif;
+    color: #646464;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .content .content-third .content-thirdblock .blockmaintitle {
+    color: #383838;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .content .content-third .content-thirdblock:hover .blocksizeimage:hover {
+    color: #000000;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .content {
+    height: 1500px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .content .content-first {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 50%;
+    order: 2;
+  }
+  .content .content-first .content-firstblock {
+    width: 100%;
+    height: 22%;
+    border-radius: 0 50% 50% 0;
+    background-color: #e9eae9;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .content .content-first .content-firstblock .blocksizeimage {
+    font-family: "Font Awesome 5 Free";
+    color: #646464;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .content .content-first .content-firstblock .blocktitle {
+    font-family: "Open Sans", sans-serif;
+    color: #646464;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .content .content-first .content-firstblock .blockmaintitle {
+    color: #383838;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .content .content-first .content-firstblock:hover .blocksizeimage:hover {
+    color: #000000;
+  }
+  .content .content-second {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    background-color: #f0f1f2;
+    width: 100%;
+    order: 1;
+  }
+  .content .content-second .contentcontainer {
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+  .content .content-second .contentcontainer .blockmaintext {
+    font-family: myFirstFont, sans-serif;
+    letter-spacing: -3.5px;
+    font-size: 90px;
+  }
+  .content .content-second .contentcontainer .blocktext {
+    font-family: myFirstFont, sans-serif;
+    font-size: 50px;
+    letter-spacing: 60px;
+    padding-left: 60px;
+  }
+  .content .content-second .contentcontainer .blocktext2 {
+    font-family: myFirstFont, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: #646464;
+    line-height: 25px;
+    padding: 30px 0;
+  }
+  .content .content-second .contentcontainer button {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: #ffffff;
+    width: 312px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: opacity 1s ease-in;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .content .content-second .contentcontainer button:hover {
+    opacity: 0.3;
+  }
+  .content .content-second .contentcontainer .secondblock {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 80px;
+  }
+  .content .content-second .contentcontainer .secondblock a {
+    cursor: pointer;
+  }
+  .content .content-second .contentcontainer .secondblock a span {
+    font-family: "Font Awesome 5 Brands";
+    font-size: 50px;
+    transition: opacity font-size 0.5s ease-out;
+  }
+  .content .content-second .contentcontainer .secondblock a span:hover {
+    opacity: 0.3;
+    font-size: 80px;
+  }
+  .content .content-third {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 50%;
+    order: 3;
+  }
+  .content .content-third .content-thirdblock {
+    width: 100%;
+    height: 22%;
+    border-radius: 50% 0 0 50%;
+    background-color: #e9eae9;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  .content .content-third .content-thirdblock .blocksizeimage {
+    font-family: "Font Awesome 5 Free";
+    color: #646464;
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+  .content .content-third .content-thirdblock .blocktitle {
+    font-family: "Open Sans", sans-serif;
+    color: #646464;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+  }
+  .content .content-third .content-thirdblock .blockmaintitle {
+    color: #383838;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .content .content-third .content-thirdblock:hover .blocksizeimage:hover {
+    color: #000000;
+  }
+}
+
+/*# sourceMappingURL=css.css.map */

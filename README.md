@@ -37,6 +37,6 @@
 # 16. SCSS
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/homework)
 [Задание 2](https://github.com/AdukarIT/LobkoKA/tree/master/work)
-[Задание 3](https://github.com/AdukarIT/LobkoKA/tree/master/homework%200)
+[Задание 3](https://github.com/AdukarIT/LobkoKA/tree/master/homework14-1)
 # 11. Практика
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/pixel1)

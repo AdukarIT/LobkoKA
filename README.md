@@ -40,3 +40,7 @@
 [Задание 3](https://github.com/AdukarIT/LobkoKA/tree/master/homework14-1)
 # 11. Практика
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/pixel1)
+# 14. Операторы.Циклы
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript1)
+# 15. Функции
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript2)

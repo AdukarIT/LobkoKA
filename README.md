@@ -45,6 +45,6 @@
 # 15. Функции
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript2)
 # 16. Массивы
-[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript2)
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript3)
 # 17. Объекты
-[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript2)
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript4)

@@ -48,3 +48,5 @@
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript3)
 # 17. Объекты
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript4)
+# 18. 
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript5)

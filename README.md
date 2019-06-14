@@ -50,3 +50,5 @@
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript4)
 # 18. Встроенные возможности JavaScript
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript5)
+# 19. Продвинутый JavaScript
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript6)

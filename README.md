@@ -52,3 +52,5 @@
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript5)
 # 19. Продвинутый JavaScript
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript6)
+# 20. DOM. Работа со страницей
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript7)

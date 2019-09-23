@@ -57,6 +57,6 @@
 # 21. События. Координаты на странице
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascriptevent)
 # 22. Формы
-[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascriptevent)
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript9)
 # 23. ООП в Javascript
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascriptoop)

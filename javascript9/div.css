@@ -1,0 +1,37 @@
+.wasDiv{
+	height:80px;
+	width:30px;
+	background-color:red;
+}
+.willDiv {
+	height:90px;
+	width:30px;
+	background-color:green;
+	display:block;
+}
+.blocksDiv {
+	display:flex;
+	flex-direction:row;
+	width:110px;
+	justify-content:space-between;
+}
+.blockWas {
+	display:flex;
+	flex-direction:column;
+	align-content:center;
+	justify-content:space-around;
+	height:145px;
+}
+.blockWill {
+	display:flex;
+	flex-direction:column;
+	align-content:center;
+	height:145px;
+	justify-content:space-around;
+}
+.pBlock {
+	width:30px;
+	height:10px;
+	text-align:center;
+	margin:0px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet"  href="div.css">
+</head>
+<body>
+<select name="select">
+  <option>Бокс</option>
+  <option selected>Баскетбол</option>
+</select>
+<form class="formField">
+	<label>
+		Сумма
+		<input type="text" class="inpFirst">
+	</label>
+	<br/>
+	<label>
+		Срок в месяцах
+		<input type="number" class="inpSecond">
+	</label>
+	<br/>
+	<label>
+		С капитализацией
+		<input type="radio">
+	</label>
+	<br/>
+	<div class="blocksDiv">
+		<div class="blockWas">
+			<label for="inpOneGetNumbers">Было:</label>
+			<p name="inpOneGetNumbers" class="pBlock"></p>
+			<div class="wasDiv"></div>
+		</div>
+		<div class="blockWill">
+			<label for="inpTwoGetNumbers">Станет:</label>
+			<p name="inpTwoGetNumbers" class="pBlock"></p>
+			<div class="willDiv"></div>
+		</div>
+	</div>
+	<div>
+		<form>
+			<label> Пароль
+				<input type="text" class="inpfirstClass">
+			</label>
+			<label> E-mail
+				<input type="text" class="inpsecondClass">
+			</label>
+		</form>
+	</div>
+	<div>
+		<form>
+			<label>Имя
+				<input id="name">
+			</label>
+			<label>Номер
+				<input id="number">
+			</label>
+		</form>
+	</div>
+	<div>
+		<form action="mailto:address@domen.domen">
+			<input type="text" id="formTells">
+			<input type="button" id="submitDelete" value="Очищить"> Очищить значение 
+			<input type="submit" id="submitGet" value="Перекинуть"> Перекинуть значение
+		</form>
+	</div>
+	<div>
+		<form id="first">
+				 <input type= "email" placeholder="Электронная почта">
+				<input type="text" placeholder="Тип поля текст">
+		</form>
+
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+label {
+	position:relative;
+	display:block;
+	height:40px;
+	width:210px;
+}
+label input{
+ opacity:0;
+}
+span{
+	position:absolute;
+	width:19px;
+	height:20px;
+	color:#efefe2;
+	border:1px solid #000;
+}
+label input:checked ~ span{
+	background-color:#00f;
+}
+img {
+	width:100px;
+	height:110px;
+}

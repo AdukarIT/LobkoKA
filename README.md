@@ -54,3 +54,9 @@
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript6)
 # 20. DOM. Работа со страницей
 [Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascript7)
+# 21. События. Координаты на странице
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascriptevent)
+# 22. Формы
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascriptevent)
+# 23. ООП в Javascript
+[Задание 1](https://github.com/AdukarIT/LobkoKA/tree/master/javascriptoop)
